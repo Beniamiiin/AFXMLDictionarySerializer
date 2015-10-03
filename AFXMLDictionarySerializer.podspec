@@ -15,7 +15,5 @@ Pod::Spec.new do |s|
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
 
-  s.dependency 'AFNetworking', '>= 2.0'
-  s.dependency 'XMLDictionary'
   s.requires_arc = true
 end
