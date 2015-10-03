@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   
   s.author       = { "ideaismobile" => "thiago.peres@ideais.com.br" }
   
-  s.platform     = :ios, '6.0'
+  s.ios.deployment_target = '6.0'
+  s.watchos.deployment_target = '2.0'
   s.source       = { :git => "https://github.com/ideaismobile/AFXMLDictionarySerializer.git", :tag => "0.0.1" }
 
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
